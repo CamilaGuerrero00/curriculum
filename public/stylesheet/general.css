@@ -1,0 +1,19 @@
+:root{
+    --colorMorado: #9B59B6;
+    --colorLila: #af7ac5
+}
+*{
+    margin: 0px;
+    padding: 0px; 
+}
+body{   
+    font-size: 12px;
+}
+ul{ padding:0;}
+li { 
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}

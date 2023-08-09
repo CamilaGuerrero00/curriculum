@@ -1,0 +1,33 @@
+.index_header { 
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3em;
+    gap: 0.5em;
+}
+.index_header-nav i{
+    position: absolute;
+    top:40px;
+    left: 30px;
+    font-size: 20px;
+    
+}
+.index_header-nav ul{
+    display: none
+}
+.index_header-icons{
+    display:flex;
+    flex-direction: row;
+    gap: 1em;
+    
+}
+.index_header-icons i{
+    padding: 3px;
+    border-radius: 30px;
+    border: 2px solid var(--colorLila);
+}
+.index_header img{
+    width :100px;
+    border-radius:50%;
+    border: 3px solid var(--colorMorado);
+}
